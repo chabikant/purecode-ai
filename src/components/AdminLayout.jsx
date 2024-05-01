@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import Preloader from "./Preloader";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import Topbar from "./Topbar";
+import Topbar from "./Topbar";   
 
 const AdminLayout = ({ children }) => {
     return (
