@@ -31,7 +31,7 @@ const MaximizeScreen = () => {
         } else if (document.webkitCancelFullScreen) {
           document.webkitCancelFullScreen();
         }
-        setFullScreenOn(false);
+        setFullScreenOn(false);  
       }
     };
   
